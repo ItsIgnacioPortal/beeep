@@ -1,7 +1,7 @@
 //go:build (linux && !nodbus) || (freebsd && !nodbus) || (netbsd && !nodbus) || (openbsd && !nodbus)
 // +build linux,!nodbus freebsd,!nodbus netbsd,!nodbus openbsd,!nodbus
 
-package beeep
+package main
 
 import (
 	"errors"

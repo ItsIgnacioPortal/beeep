@@ -1,4 +1,4 @@
-// Package beeep provides a cross-platform library for sending desktop notifications and beeps.
+// package main provides a cross-platform library for sending desktop notifications and beeps.
 package main
 
 import (

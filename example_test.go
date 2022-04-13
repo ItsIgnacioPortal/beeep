@@ -1,4 +1,4 @@
-package beeep
+package main
 
 func ExampleBeep() {
 	Beep(DefaultFreq, DefaultDuration)

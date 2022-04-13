@@ -1,7 +1,7 @@
 //go:build js
 // +build js
 
-package beeep
+package main
 
 import (
 	"syscall/js"

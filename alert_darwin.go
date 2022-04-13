@@ -1,7 +1,7 @@
 //go:build darwin && !linux && !freebsd && !netbsd && !openbsd && !windows && !js
 // +build darwin,!linux,!freebsd,!netbsd,!openbsd,!windows,!js
 
-package beeep
+package main
 
 import "os/exec"
 

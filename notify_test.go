@@ -1,4 +1,4 @@
-package beeep
+package main
 
 import (
 	"testing"

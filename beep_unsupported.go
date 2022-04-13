@@ -1,7 +1,7 @@
 //go:build !linux && !freebsd && !netbsd && !openbsd && !windows && !darwin && !js
 // +build !linux,!freebsd,!netbsd,!openbsd,!windows,!darwin,!js
 
-package beeep
+package main
 
 var (
 	// DefaultFreq - frequency, in Hz, middle A

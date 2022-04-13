@@ -1,7 +1,7 @@
 //go:build linux || freebsd || netbsd || openbsd
 // +build linux freebsd netbsd openbsd
 
-package beeep
+package main
 
 import (
 	"errors"

@@ -1,7 +1,7 @@
 //go:build windows && !linux && !freebsd && !netbsd && !openbsd && !darwin && !js
 // +build windows,!linux,!freebsd,!netbsd,!openbsd,!darwin,!js
 
-package beeep
+package main
 
 import (
 	toast "github.com/go-toast/toast"
