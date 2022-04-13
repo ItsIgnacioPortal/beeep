@@ -1,4 +1,4 @@
-// package main provides a cross-platform library for sending desktop notifications and beeps.
+
 package main
 
 import (
@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	// ErrUnsupported is returned when operating system is not supported.
+	
 	ErrUnsupported = errors.New("beeep: unsupported operating system: " + runtime.GOOS)
 )
 

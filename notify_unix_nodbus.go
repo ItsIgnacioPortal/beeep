@@ -1,5 +1,5 @@
-//go:build (linux && nodbus) || (freebsd && nodbus) || (netbsd && nodbus) || (openbsd && nodbus)
-// +build linux,nodbus freebsd,nodbus netbsd,nodbus openbsd,nodbus
+
+
 
 package main
 
@@ -8,7 +8,7 @@ import (
 	"os/exec"
 )
 
-// Notify sends desktop notification.
+
 func Notify(title, message, appIcon string) error {
 	appIcon = pathAbs(appIcon)
 

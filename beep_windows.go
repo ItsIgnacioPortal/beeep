@@ -1,5 +1,5 @@
-//go:build windows && !linux && !freebsd && !netbsd && !openbsd && !darwin && !js
-// +build windows,!linux,!freebsd,!netbsd,!openbsd,!darwin,!js
+
+
 
 package main
 
@@ -8,13 +8,13 @@ import (
 )
 
 var (
-	// DefaultFreq - frequency, in Hz, middle A
+	
 	DefaultFreq = 587.0
-	// DefaultDuration - duration in milliseconds
+	
 	DefaultDuration = 500
 )
 
-// Beep beeps the PC speaker (https://en.wikipedia.org/wiki/PC_speaker).
+
 func Beep(freq float64, duration int) error {
 	if freq == 0 {
 		freq = DefaultFreq

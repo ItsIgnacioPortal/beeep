@@ -1,5 +1,5 @@
-//go:build (linux && !nodbus) || (freebsd && !nodbus) || (netbsd && !nodbus) || (openbsd && !nodbus)
-// +build linux,!nodbus freebsd,!nodbus netbsd,!nodbus openbsd,!nodbus
+
+
 
 package main
 
@@ -10,9 +10,9 @@ import (
 	"github.com/godbus/dbus/v5"
 )
 
-// Notify sends desktop notification.
-//
-// On Linux it tries to send notification via D-Bus and it will fallback to `notify-send` binary.
+
+
+
 func Notify(title, message, appIcon string) error {
 	appIcon = pathAbs(appIcon)
 
